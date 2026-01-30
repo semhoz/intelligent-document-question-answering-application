@@ -10,41 +10,6 @@ An intelligent Retrieval-Augmented Generation (RAG) system built with LangGraph,
 - **Streamlit UI**: Simple web interface for interacting with the system
 - **LangGraph Workflow**: Structured RAG pipeline with state management
 
-## Setup
-
-1. Clone the repository:
-```bash
-git clone <your-repo-url>
-cd ragdemo
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-# or with uv
-uv sync
-```
-
-3. Set up environment variables:
-```bash
-cp .env.example .env
-# Edit .env and add your OpenAI API key
-```
-
-4. Add your documents to the `data/` folder (PDFs, text files) or update URLs in `src/config/config.py`
-
-## Usage
-
-### Command Line
-```bash
-python main.py
-```
-
-### Streamlit Web UI
-```bash
-streamlit run streamlit_app.py
-```
-
 ## Project Structure
 
 ```
